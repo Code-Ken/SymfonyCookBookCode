@@ -1,3 +1,9 @@
 app:
     resource: '@AppBundle/Controller/'
     type: annotation
+yaml_test:
+    path: /yaml/test
+    defaults: { _controller: AppBundle:Default:who }
+
+xml_test:
+    resource: '@AppBundle/Resources/config/routing/xml_routing_test.xml'
